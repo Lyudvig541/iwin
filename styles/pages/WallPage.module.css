@@ -1,0 +1,24 @@
+.wallDefaultDark{
+  background-image: url("../../src/assets/images/default-wall-dark.png");
+  background-position: center;
+}
+.wallDefaultLight{
+  background-image: url("../../src/assets/images/default-wall-light.png");
+  background-position: center;
+}
+.wallWinLight{
+  background-image: url("../../src/assets/images/win-banana-light.png");
+  background-position: center;
+}
+.wallWinDark{
+  background-image: url("../../src/assets/images/win-banana-dark.png");
+  background-position: center;
+}
+.wallLoseDark{
+  background-image: url("../../src/assets/images/lose-rocks-dark.png");
+  background-position: center;
+}
+.wallLoseLight{
+  background-image: url("../../src/assets/images/lose-roks-light.png");
+  background-position: center;
+}

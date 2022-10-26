@@ -1,0 +1,18 @@
+.minesDefault{
+  background-image: url("../../src/assets/images/mines-bg-default.png");
+  background-position: center;
+}
+.minesDefaultDisable{
+  background-image: url("../../src/assets/images/mines-bg-default.png");
+  background-position: center;
+  opacity: 0.7;
+}
+.minesDiamond{
+  background-image: url("../../src/assets/images/diamond-block.png");
+  background-position: center;
+
+}
+.minesBomb{
+  background-image: url("../../src/assets/images/bomb-block.png");
+  background-position: center;
+}

@@ -1,0 +1,17 @@
+.ComponentBackground{
+  background-image: url('../../src/assets/images/background.png');
+  background-color: #13052D;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+}
+.ComponentBackgroundLightMode{
+  height: auto;
+  background-image: url('../../src/assets/images/bgLight.png');
+  background-color: #F7F3FD;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

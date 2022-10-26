@@ -1,0 +1,156 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Noto Sans, serif;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../src/assets/fonts/Inter/static/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../src/assets/fonts/Noto_Sans/NotoSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+.swiper-slide-prev{
+  margin-right: 0;
+}
+
+.swiper-slide {
+  margin-top: 70px;
+}
+.closeDropDown {
+  display: none;
+}
+
+.activeList {
+  filter: blur(3px);
+  opacity: .2;
+}
+.activeListBlock{
+  width: 375px !important;
+  height: 203px !important;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  display: none !important;
+}
+
+@media (max-width: 586px) {
+  .activeList{
+    top: 70px;
+  }
+  .activeListBlock{
+    width: 259px !important;
+    height: 139px !important;
+    margin: 40px 8px 42px !important;
+    transition: 0.7s;
+  }
+}
+#__next{
+  overflow-x: hidden;
+}
+
+/*switch mode styles*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 59px;
+  height: 28px;
+}
+
+@media (max-width: 1320px) {
+  .switch {
+    align-self: end;
+  }
+}
+
+.switch:focus {
+  border: none;
+  outline: none;
+}
+
+.switch:active {
+  border: none;
+  outline: none;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #271646;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 3px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background: linear-gradient(89.31deg, #E66E60 -7%, #D82A88 110.22%);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(29px);
+  -ms-transform: translateX(29px);
+  transform: translateX(29px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.darkIcon {
+  width: 20px;
+  position: absolute;
+  z-index: 1000000;
+  left: 4px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.lightIcon {
+  width: 20px;
+  position: absolute;
+  z-index: 1000000;
+  right: 4px;
+  top: 4px;
+  cursor: pointer;
+}

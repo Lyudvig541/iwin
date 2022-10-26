@@ -1,0 +1,14 @@
+.HeadsBackground{
+    background-image: url('../../src/assets/images/BigHeads.png');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.TailsBackground{
+    background-image: url('../../src/assets/images/BigTails.png');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}

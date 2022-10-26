@@ -1,0 +1,36 @@
+.ActiveDice{
+    background: url("../../src/assets/images/mask-dice.png");
+}
+.ActiveFlip{
+    background: url("../../src/assets/images/mask-flip-desktop.svg");
+}
+.ActiveWheels{
+    background: url("../../src/assets/images/NavBarWheel.png");
+}
+.ActiveMines{
+    background: url("../../src/assets/images/mask-mines-desktop.png");
+    background-size: cover;
+    background-position: top;
+}
+.ActiveWall{
+    background: url("../../src/assets/images/mask-wall-desktop.png");
+    background-size: cover;
+    background-position: top;
+}
+@media (max-width: 1320px) {
+    .ActiveDice{
+        background-image: url("../../src/assets/images/mobile-mask-dice.svg");
+    }
+    .ActiveFlip{
+        background-image: url("../../src/assets/images/mobile-mask-flip.png");
+    }
+    .ActiveWheels{
+        background-image: url("../../src/assets/images/mobile-mask-wheel.png");
+    }
+    .ActiveMines{
+        background-image: url("../../src/assets/images/mobile-mask-mines.png");
+    }
+    .ActiveWall{
+        background-image: url("../../src/assets/images/mobile-mask-mines.png");
+    }
+}
